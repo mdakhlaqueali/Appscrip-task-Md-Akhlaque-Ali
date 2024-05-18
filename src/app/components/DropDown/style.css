@@ -1,0 +1,19 @@
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.dropDownContainer {
+  padding: 0.7rem;
+}
+
+.options label {
+  display: block;
+  padding-top: 0.5rem;
+}
+
+.options input {
+  margin-right: 0.4rem;
+}

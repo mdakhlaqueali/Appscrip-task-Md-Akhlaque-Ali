@@ -1,0 +1,121 @@
+.footerContainer {
+  background-color: black;
+  color: white;
+  padding: 4rem;
+}
+
+.copyRightSection {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.upperSection {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.subscribe {
+  margin-right: 560px;
+  @media screen and (max-width: 1440px) {
+    margin-right: 430px;
+  }
+  @media screen and (max-width: 1024px) {
+    margin-right: 150px;
+  }
+  @media screen and (max-width: 768px) {
+    margin-right: 120px;
+  }
+}
+
+.contactUs {
+  grid-column-start: 3;
+  grid-column-end: 3;
+}
+
+.responsiveHr {
+  display: none;
+}
+
+.mainHr {
+  margin: 20px 0;
+}
+
+.Links {
+  text-decoration: none;
+  color: white;
+}
+
+.footerIcons {
+  margin: 7px;
+}
+
+.lowerSection {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+#emailField {
+  width: 300px;
+  height: 30px;
+  margin-right: 5px;
+  @media screen and (max-width: 768px) {
+    width: 115px;
+  }
+}
+#subscribeBtn {
+  width: 100px;
+  height: 35px;
+  background-color: black;
+  color: #ccc;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-left: 5px;
+}
+
+.responsiveFooter {
+  display: none;
+}
+
+.bigScreenFooter {
+  display: block;
+}
+
+.social-icons {
+  display: flex;
+}
+
+.iconContainer {
+  border-radius: 50%;
+  border: 2px solid;
+}
+
+.social-icons .iconContainer:nth-child(1) {
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 425px) {
+  .footerContainer {
+    padding: 1.2rem;
+  }
+  .responsiveHr {
+    display: block;
+    margin: 10px 0;
+  }
+  .responsiveFooter {
+    display: block;
+  }
+  .bigScreenFooter {
+    display: none;
+  }
+  #emailField {
+    width: 102px;
+  }
+  .upperSection {
+    display: block;
+  }
+  .lowerSection {
+    display: block;
+  }
+}

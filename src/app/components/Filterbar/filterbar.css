@@ -1,0 +1,64 @@
+.filterbarContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  @media screen and (max-width: 768px) {
+    justify-content: space-evenly;
+    .vertical-Line {
+      display: block;
+      border: 1px solid #e4e4e4;
+      height: 30px;
+    }
+  }
+  @media screen and (max-width: 425px) {
+    justify-content: space-evenly;
+    .vertical-Line {
+      display: block;
+      border: 1px solid #e4e4e4;
+      height: 30px;
+    }
+  }
+}
+.filterInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 20%;
+  @media screen and (max-width: 768px) {
+    display: none;
+    width: 50%;
+  }
+  @media screen and (max-width: 425px) {
+    display: none;
+    width: 50%;
+  }
+}
+
+.smallScreenFilter {
+  display: none;
+  font-weight: 600;
+  @media screen and (max-width: 768px) {
+    display: block;
+    width: 25%;
+    text-align: center;
+  }
+  @media screen and (max-width: 425px) {
+    display: block;
+    width: 50%;
+    text-align: center;
+  }
+}
+
+.verticai-Line {
+  display: none;
+}
+
+.filterbarContainer button {
+  margin: 25px 25px;
+}
+
+#sortDropDown {
+  border: none;
+  font-size: small;
+  font-weight: 650;
+}

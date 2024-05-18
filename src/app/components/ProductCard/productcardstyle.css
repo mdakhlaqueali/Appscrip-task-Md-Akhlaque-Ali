@@ -1,0 +1,137 @@
+.cardContainer {
+  padding: 5px;
+  margin: 14px;
+  width: 380px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-image {
+  margin-bottom: 12px;
+  width: 380px;
+  height: 200px;
+}
+
+.product-name {
+  font-size: 18px;
+  margin-bottom: 8px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 350px;
+}
+
+.product-description {
+  font-size: 14px;
+  color: #555;
+}
+
+.nameDescription {
+  padding: 0.3rem;
+}
+
+.nameDescription > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1440px) {
+  .product-image {
+    margin-bottom: 12px;
+    width: 200px;
+  }
+  .cardContainer {
+    width: 200px;
+    margin: 10px;
+  }
+  .product-name {
+    font-size: 18px;
+    margin-bottom: 8px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 195px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .product-image {
+    margin-bottom: 12px;
+    width: 180px;
+  }
+  .cardContainer {
+    width: 180px;
+    margin: 10px;
+  }
+  .product-name {
+    font-size: 18px;
+    margin-bottom: 8px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 175px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .product-image {
+    margin-bottom: 12px;
+    width: 150px;
+  }
+  .cardContainer {
+    width: 150px;
+    margin: 5px;
+  }
+  .product-name {
+    font-size: 18px;
+    margin-bottom: 8px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 145px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .product-image {
+    margin-bottom: 12px;
+    width: 155px;
+  }
+  .cardContainer {
+    width: 155px;
+    margin: 10px;
+  }
+  .product-name {
+    font-size: 18px;
+    margin-bottom: 8px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .product-image {
+    margin-bottom: 12px;
+    width: 138px;
+  }
+  .cardContainer {
+    width: 138px;
+    margin: 4px;
+  }
+  .product-name {
+    font-size: 18px;
+    margin-bottom: 8px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 130px;
+  }
+}

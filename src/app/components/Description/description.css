@@ -1,0 +1,23 @@
+.describeContainer {
+    text-align: center;
+    padding: 25px 275px;
+    .heading {
+      margin-bottom: 25px;
+    }
+    @media screen and (max-width: 1024px) {
+      padding: 25px 250px;
+    }
+    @media screen and (max-width: 768px) {
+      padding: 25px 125px;
+      .heading {
+        margin-bottom: 10px;
+      }
+    }
+    @media screen and (max-width: 425px) {
+      padding: 15px;
+      .heading {
+        font-size: x-large;
+        margin-bottom: 10px;
+      }
+    }
+  }
